@@ -1,0 +1,41 @@
+yarn init -y  "para inicializar o projeto"
+
+Yarn add typescript -D "como o type é compilado em javascrip quando compilado, por isso é instalado somente em desenvolvimento que é o -S"
+
+yarn add express "Adicionando a biblioteca express para rotas"
+
+yarn add @types/express -D "tipagem do express, trazendo tipo um autocomplete para auxiliar no desenvolvimento"
+
+yarn tsc --init "inicializar o typescritp no projeto"
+
+yarn add ts-node-dev "biblioteca para rodar o typ no ambiente de desenvolvimento"
+
+yarn dev "para rodar o projeto"
+
+yarn add express-async-errors "Biblioteca de errors"
+
+yarn add cors "adicionar cors"
+
+yarn add @types/cors -D "tipagem do cors"
+
+yarn add prisma "instalar prisma"
+
+yarn add @prisma/cliente "serve pra gerar as migration, não sei direito"
+
+npx prisma init "inicializar prisma no projeto"
+
+yarn prisma migrate dev "criar uma migration"
+
+yarn add bcryptjs "biblioteca par acriptografar senha"
+
+yarn add @types/bcryptjs -D "tipagem do bcrypt"
+
+yarn add jsonwebtoken "JWT"
+
+yarn add @types/jsonwebtoken -D "tipagem do jwt"
+
+yarn add dotenv "instalar o env para varieis de ambente"
+
+yarn add multer "biblioteca de imagem"
+
+yarn add @types/multer -D "tipagagem da biblioteca"
